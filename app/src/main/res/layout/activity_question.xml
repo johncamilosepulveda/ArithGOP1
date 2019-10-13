@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/fondo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FFF"
+            android:background="#000"
+            android:textSize="60dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_puntaje"
+            android:text="PUNTAJE:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FFF"
+            android:id="@+id/btn_pregunta"
+            android:text="Generar Pregunta"
+            android:background="#000"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/txtV_operacion"
+            android:textColor="#FFF"
+            android:textSize="60dp"
+            android:background="#000"
+            android:layout_centerHorizontal="true"
+            android:text=""/>
+
+    </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="15dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:id="@+id/Etxt_resultado"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#FFF"
+            android:id="@+id/btn_resultado"
+            android:background="#000"
+            android:text="Resultado"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
